@@ -1,3 +1,4 @@
+
 h4 {
   font-size: 18px;
   font-weight: bold;
@@ -42,34 +43,42 @@ h4 {
   float: right;
   position: relative;
   width: 20%;
-  padding: 25px;
+  padding: 20px;
 }
 
-.stacked2 {
+.stacked2,
+.stacked3 {
   float: right;
   position: relative;
   width: 20%;
-  padding: 25px;
-  padding-top: 200px;
+  padding: 20px;
 }
 
-.side1 {
-  position: fixed;
-  width: 20%;
-  padding-top: 10px;
-}
-
-.side2 {
-  position: fixed;
-  width: 20%;
-}
-
+.side1,
+.side2,
 .side3 {
-  position: fixed;
-  width: 20%;
-  padding: 25px;
+  position: relative;
+  width: 100%;
+  padding-top: 5px;
 }
 
 .image_title {
   text-align: inherit;
+}
+
+.content_header {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  padding: 20px;
+  padding-left: 28px;
+}
+
+.content {
+  float: left;
+  width: 70%;
+  font-size: 16px;
+  padding: 5px;
+  padding-left: 26px;
+  font-family: Arial;
 }
